@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DoomHammer</title>
+    <meta charset="utf-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap&subset=latin-ext');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            color: #272727;
+            font-family: 'Varela Round', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-weight: normal;
+        }
+
+        .remark-slide {
+            background: #272727;
+        }
+
+        .remark-slide-content {
+            background-size: cover;
+        }
+
+        .remark-code,
+        .remark-inline-code {
+            text-align: left;
+            border-radius: 15px;
+            font-family: 'Varela Round', sans-serif;
+        }
+
+        .wrapper {
+            background: #ffffff;
+            border-radius: 30px;
+            border: 10px solid #272727;
+        }
+
+        a {
+            color: #272727;
+            text-decoration: none;
+        }
+
+        img {
+            border-radius: 15px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100vh;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <textarea id="source">
+
+class: wrapper, center, middle
+
+# Slajd tytułowy
+
+---
+class: wrapper, center
+
+# Listy
+
+Lista numerowana:
+1. Introduction
+2. Deep-dive
+3. ...
+
+Lista z kropkami:
+* hello
+* world
+
+---
+class: wrapper, center
+
+# Zdjęcie i linki
+
+![DoomHammer](doomhammer.jpg)
+
+[https://github.com/DoomHammer](https://github.com/DoomHammer)
+
+[https://doomhammer.info](https://doomhammer.info)
+
+---
+
+background-image: url(avocado.jpg)
+
+???
+
+Na przykład awokado. Po spróbowaniu takiego burrito z awokado może okazać się że jest ono lepsze od mięsnego wariantu z naszej ulubionej restauracji. Możemy więc przekazać im ten przepis albo opublikować go samemu. Wariant pierwszy odpowiada zgłoszeniu propozycji zmian w oryginalnym projekcie, wariant drugi to publikacja tzw. forka, tudzież odgałęzienia. Osobnego projektu którego historia do pewnego momentu tożsama jest z historią projektu oryginalnego. Potęgą takiego podejścia jest to, że każdy użytkownik ma możliwość uczynić produkt lepszym dla wszystkich podobnych mu odbiorców.
+
+---
+class: wrapper
+<!-- w przypadku takiego rodzaju slajdu nie może być klasy center, ponieważ wtedy tworzy się przerwa między numerem a tekstem -->
+
+1. Kod źródłowy najważniejszych funkcji
+
+--
+
+2. Interfejs użytkownika, projekt graficzny
+
+---
+class: wrapper
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/PIAXG_QcQNU" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+
+---
+class: wrapper, center
+
+# Tekst
+
+Lorem **ipsum** dolor sit amet, consectetur adipisicing elit. Fugiat eos, saepe nesciunt dolores, vel tempore soluta molestias sapiente natus rerum dolorem architecto nobis illum ipsum reprehenderit accusamus vitae nulla pariatur.
+
+Lorem ipsum dolor *sit amet*, consectetur adipisicing elit. Autem eligendi totam dolorum inventore at ab placeat facilis labore delectus, numquam, atque, tenetur, odio eveniet earum ut veniam ea fugiat nemo necessitatibus quae minus consequuntur nam! Vero neque, tenetur deleniti nulla qui architecto cumque, consequuntur quo amet ipsum sunt iure aspernatur, quis at ducimus est harum nihil. Facere ipsam placeat eos voluptatum ex distinctio quasi architecto doloribus illo enim velit et libero, tenetur, totam nobis obcaecati. Quisquam accusamus, magnam esse amet veniam voluptatibus eum aliquid. Voluptatibus fugiat, excepturi, error enim ducimus rem! Laboriosam, distinctio impedit voluptatibus animi eaque atque? Architecto, delectus!
+
+---
+class: wrapper, center
+
+# Kod
+```html
+<p>
+    Hello World
+</p>
+```
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+        var slideshow = remark.create();
+    </script>
+</body>
+
+</html>
